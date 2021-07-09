@@ -59,6 +59,10 @@ namespace BasicCorePrograms
                     QuotientRem quotientrem = new QuotientRem();
                     quotientrem.QuotientRemainder();
                     break;
+                case 10:
+                    HarmonicNumber harmonicNumber = new HarmonicNumber();
+                    harmonicNumber.ReadInput();
+                    break;
                 default:
                     Console.WriteLine("invalid choice");
                     break;
